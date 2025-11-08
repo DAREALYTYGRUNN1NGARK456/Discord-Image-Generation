@@ -1,3 +1,4 @@
 # Table of contents
 
-* [Montage Images](/montage/readme.md)
+* [README](README.md)
+* [Montage Images](montage/readme.md)
