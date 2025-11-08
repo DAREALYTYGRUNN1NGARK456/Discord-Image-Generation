@@ -1,4 +1,4 @@
 # Table of contents
 
-* [Home](README.md)
+* [Discord Image Generation](README.md)
 * [Montage Images](montage/readme.md)
