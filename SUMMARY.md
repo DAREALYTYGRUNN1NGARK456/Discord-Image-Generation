@@ -1,4 +1,4 @@
 # Table of contents
 
-* [README](README.md)
+* [Home](README.md)
 * [Montage Images](montage/readme.md)
