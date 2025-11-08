@@ -1,3 +1,3 @@
 # Montage Images
 
-- [President](/montage/president)
+- [President](/montage/president.md)
