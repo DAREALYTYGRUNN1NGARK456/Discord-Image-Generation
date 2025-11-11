@@ -1,4 +1,5 @@
-[![NPM](https://nodei.co/npm/dig.yd.js.svg)](https://nodei.co/npm/dig.yd.js/)</a>
+[![NPM](https://nodei.co/npm/dig.yd.js.svg)](https://nodei.co/npm/dig.yd.js/)
+[![NPM](https://nodei.co/npm/dig.yd.js.svg?style=shields&data=v,u,d&color=blue)](https://nodei.co/npm/dig.yd.js/)
 
 # discord-image-generation
 
