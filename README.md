@@ -17,7 +17,7 @@ A correct and understandable issue contains :
 
 # Download
 
-You can download it from <a href="https://www.npmjs.com/package/dig.js">npmjs</a>.
+You can download it from <a href="https://www.npmjs.com/package/dig.yd.js">npmjs</a>.
 
 ```cli
 npm i dig.js
@@ -40,7 +40,7 @@ const Discord = require("discord.js");
 // Create a new discord.js client.
 const bot = new Discord.Client();
 
-const DIG = require("dig.js");
+const DIG = require("dig.yd.js");
 
 // Listen to the ready event
 bot.on("ready", () => {
@@ -103,7 +103,7 @@ const bot = new Client({
     ],
 });
 
-const DIG = require("dig.js");
+const DIG = require("dig.yd.js");
 
 // Listen to the ready event
 bot.on("ready", () => {
