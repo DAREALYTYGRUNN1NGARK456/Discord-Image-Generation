@@ -195,7 +195,7 @@ bot.login("super_secret_token");
 
 - ``new DIG.President().getImage(`<Avatar>`);``
 
-![President](https://i.imgur.com/MPHXNc4.png)
+![President](https://i.imgur.com/xVc8WBy.png)
 
 - ``new DIG.Monalisa().getImage(`<Avatar>`);``
 
