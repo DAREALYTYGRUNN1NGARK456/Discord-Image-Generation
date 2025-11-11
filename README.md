@@ -13,22 +13,12 @@ A correct and understandable issue contains :
 - Code that summonned the error
 - The complete error
 
-Please join [this](https://discord.gg/5ZSGFYtnqw) community server to follow all my projects or if you need help.
-
-# Links: 
-
-### Support Server Community
-<a href="https://discord.gg/5ZSGFYtnqw"><img src="https://discord.com/api/guilds/833309512412299276/widget.png" alt="Coding support server"/></a>
-
-### Xinko Discord Bot Support Server
-<a href="https://discord.gg/Uqd2sQP"><img src="https://discord.com/api/guilds/527836578912010251/widget.png" alt="Xinko support server"/></a>
-
 # Download
 
-You can download it from <a href="https://www.npmjs.com/package/discord-image-generation">npmjs</a>.
+You can download it from <a href="https://www.npmjs.com/package/dig.js">npmjs</a>.
 
 ```cli
-npm i discord-image-generation
+npm i dig.js
 ```
 
 # Configuration
@@ -36,7 +26,7 @@ npm i discord-image-generation
 The first step is to import the module in your code.
 
 ```js
-const DIG = require("discord-image-generation");
+const DIG = require("dig.js");
 ```
 
 Then you have to request your image and send it as an attachement.
@@ -48,7 +38,7 @@ const Discord = require("discord.js");
 // Create a new discord.js client.
 const bot = new Discord.Client();
 
-const DIG = require("discord-image-generation");
+const DIG = require("dig.js");
 
 // Listen to the ready event
 bot.on("ready", () => {
@@ -111,7 +101,7 @@ const bot = new Client({
     ],
 });
 
-const DIG = require("discord-image-generation");
+const DIG = require("dig.js");
 
 // Listen to the ready event
 bot.on("ready", () => {
@@ -362,107 +352,4 @@ bot.login("super_secret_token");
 
 # Changelog
 
-## v1.4.24
-- Re added typings
-
-## v1.4.23
-- Fixed import issue
-- Added Denoise() 
-- Added Mirror()
-## v1.4.22
-- Fixed some bugs
-
-## v1.4.21
-- Added discord.js V14 usage example
-- Removed discord.js V12 usage example
-
-## v1.4.20
-- Some fixes
-- Added Clown() (thanks to Retrojection#1937)
-- Added Deepfry() (thanks to Retrojection#1937)
-- Added Heartbreaking() (thanks to Retrojection#1937)
-- Added Mikkelsen() (thanks to Retrojection#1937)
-- Added Snyder() (thanks to Retrojection#1937)
-
-## v1.4.7
-- Improved Blink() generation, now supports adding an insane amount of images ^^
-
-## v1.4.5
-- Added Karaba()
-- Fixed some errors returns that were not the same
-
-## v1.4.0
-- Added DiscordBlack() and DiscordBlue()
-- Added ESLint and fixed all problems
-- Use of the function file in LisaPresentation() instead of an in file function
-
-## v1.3.9
-- Edited links in README
-- Bumped jimp from 0.14.0 to 0.16.1
-
-## v1.3.8
-- Edited the Rip() image
-- Fixed the Spank() colors
-
-## v1.3.4
-- Added bobross()
-
-## v1.3.2
-- Added Stonk()
-- Added NotStonk()
-- Added DoubleStonk()
-- Added ConfusedStonk()
-
-## v1.2.12
-- Optimized src/index.js (thanks to https://github.com/Pyrojs)
-
-## v1.2.9
-- Added Podium()
-- Added Ad()
-- Added Poutine()
-- Fixed Wanted()
-- Bumped jimp from ^0.13.0 to ^0.14.0
-
-## v1.1.5
-- Added LisaPresentation
-
-## v1.1.2
-- Fixed invalid path
-- Moved assets folder 
-
-## v1.0.0
-- Changed the full structure
-    - Sorted all files in folders
-    - Sorted all files in the README
-- Fixed new Wanted() text bug
-- Added new Blink()
-- Added a timeout options for new Triggered()
-- Fixed the triggered example not animated
-- Added some keywords
-- Bumped jimp from ^0.12.1 to ^0.13.0
-- Added workflow to auto publish to npm and github packages on push
-
-
-## v0.1.14
-- Updated .thomas() example
-
-## v0.1.13
-- Added example for .tatoo()
-- Fixed the litle hole at the top of the users pic on .thomas()
-
-## v0.1.12
-- Saved all examples to imgur
-
-## v0.1.11
-- Added .tatoo()
-- Updated JSDoc
-
-## v0.1.9
-- Added options for the wanted.
-    - The base image has been updated
-    - There is now a random price diplayed
-    - You can now configure a currency
-- Added .thomas()
-
-
-Thanks to Alex15#0010 for the big help ! ❤
+## v0.0.1 added President and Monalisa
