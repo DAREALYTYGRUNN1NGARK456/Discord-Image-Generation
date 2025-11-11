@@ -6,7 +6,7 @@ A powerfull module that allow you to generate awesome images.
 
 # Bugs and glitches
 
-Feel free to report all bugs and glitches by creating an issue in the <a href="https://git.mrkayjaydee.xyz/Mr-KayJayDee/discord-image-generation/issues">issue section.</a>
+Feel free to report all bugs and glitches by creating an issue in the <a href="https://github.com/DAREALYTYGRUNN1NGARK456/Discord-Image-Generation/issues">issue section.</a>
 
 A correct and understandable issue contains : 
 - Steps to reproduce 
