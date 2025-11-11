@@ -193,11 +193,11 @@ bot.login("super_secret_token");
 
 - ``new DIG.President().getImage(`<Avatar>`);``
 
-![President](kkk)
+![President](https://i.imgur.com/MPHXNc4.png)
 
 - ``new DIG.Monalisa().getImage(`<Avatar>`);``
 
-![Mona Lisa](https://imgur.com/a/z4ksc2C.png)
+![Mona Lisa](https://i.imgur.com/isL4rfI.png)
 
 - ``new DIG.Ad().getImage(`<Avatar>`);``
 
