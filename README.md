@@ -191,6 +191,14 @@ bot.login("super_secret_token");
 
 ## Montage
 
+- ``new DIG.President().getImage(`<Avatar>`);``
+
+![President](kkk)
+
+- ``new DIG.Monalisa().getImage(`<Avatar>`);``
+
+![Mona Lisa](https://imgur.com/a/z4ksc2C.png)
+
 - ``new DIG.Ad().getImage(`<Avatar>`);``
 
 ![Ad](https://imgur.com/H7FvUtZ.png)
