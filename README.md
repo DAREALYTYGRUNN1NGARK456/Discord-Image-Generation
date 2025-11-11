@@ -352,4 +352,9 @@ bot.login("super_secret_token");
 
 # Changelog
 
-## v0.0.1 added President and Monalisa
+## v0.0.1 
+- added President()
+- added Monalisa()
+
+## v0.0.2
+- added README.md file
