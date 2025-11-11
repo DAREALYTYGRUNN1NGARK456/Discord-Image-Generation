@@ -1,6 +1,6 @@
 const Canvas = require(`canvas`);
 const { validateURL } = require(`../functions`);
-module.exports = class Tatoo {
+module.exports = class Tattoo {
     async getImage(image) {
         if (!image) return console.error(`You must provide an image as a first argument.`);
         let isValid = await validateURL(image);
@@ -8,7 +8,7 @@ module.exports = class Tatoo {
         const canvas = Canvas.createCanvas(750, 1089);
         const ctx = canvas.getContext(`2d`);
         const avatar = await Canvas.loadImage(image);
-        const background = await Canvas.loadImage(`${__dirname}/../../assets/tatoo.png`);
+        const background = await Canvas.loadImage(`${__dirname}/../../assets/tattoo.png`);
         ctx.drawImage(avatar, 145, 575, 400, 400);
         ctx.drawImage(background, 0, 0, 750, 1089);
         return canvas.toBuffer();
