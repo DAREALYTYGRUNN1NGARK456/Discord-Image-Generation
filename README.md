@@ -368,3 +368,7 @@ bot.login("super_secret_token");
 
 ## v0.0.2
 - added README.md file
+
+## v0.0.3
+- fixed README.md file
+- added a discord supprt server link
