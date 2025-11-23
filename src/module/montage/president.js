@@ -14,6 +14,7 @@ module.exports = class President {
 
   // Resize overlay to roughly match the head size
   img.resize(headW, headH)
+        img.circle()
       //  img.resize(140, 140);
         // 46, 43
         bg.composite(img, headX, headY);
