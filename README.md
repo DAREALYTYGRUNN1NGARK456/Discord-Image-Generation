@@ -20,7 +20,7 @@ A correct and understandable issue contains :
 You can download it from <a href="https://www.npmjs.com/package/dig.yd.js">npmjs</a>.
 
 ```cli
-npm i dig.js
+npm i dig.yd.js
 ```
 
 # Configuration
@@ -28,7 +28,7 @@ npm i dig.js
 The first step is to import the module in your code.
 
 ```js
-const DIG = require("dig.js");
+const DIG = require("dig.yd.js");
 ```
 
 Then you have to request your image and send it as an attachement.
